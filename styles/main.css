@@ -1,0 +1,40 @@
+.root-header {
+  font-family: var(--font-georama);
+  padding: 4px 20px;
+  height: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  background-color: var(--color-white);
+  backdrop-filter: blur(16px);
+
+
+  & img {
+    width: 160px;
+  }
+
+  & .navigation {
+    & .navigation-list {
+      display: flex;
+      gap: 4px;
+
+      & li {
+        padding: 8px 16px;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 16px;
+        min-width: max-content;
+      }
+    }
+  }
+}
+
+main {
+  height: auto;
+  width: auto;
+  min-height: 100vh;
+  background-image: url("../assets/background_build.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
