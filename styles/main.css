@@ -9,8 +9,9 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.879);
+  background-color: rgba(255, 255, 255, 0.75);
   backdrop-filter: blur(16px);
+  box-shadow: 1px 11px 28px -4px rgba(0, 0, 0, 0.39);
 
   & img {
     width: 128px;
@@ -18,23 +19,30 @@
 
   & .navigation {
     display: none;
+
+    & .navigation-list {
+      li:hover {
+        opacity: 0.5;
+        transition: all 1s;
+      }
+    }
   }
 }
 
-main {
+/* main {
   margin-top: 72px
-}
+} */
 
 .content {
   width: auto;
-  height: calc(100vh - 72px);
+  height: 100vh;
   padding: 10px;
   background: linear-gradient(0deg,
       rgba(0, 0, 0, 1) 0%,
       rgba(0, 0, 0, 0.70) 46%,
       rgba(0, 0, 0, 0.50) 100%),
     url("../assets/background_build.webp");
-  background-position: center;
+  background-position: top 20% right 50%;
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
