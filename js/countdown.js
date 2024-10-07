@@ -1,4 +1,4 @@
-const targetDate = new Date('10/14/2024 12:00 AM')
+const targetDate = new Date('10/14/2024 6:00 PM')
 
 let SECOND = 1000
 let MINUTE = SECOND * 60
@@ -7,6 +7,8 @@ let DAY = HOUR * 24
 let interval
 
 const $ = (elem) => document.querySelector(elem)
+
+showRemaining()
 
 function showRemaining() {
       const now = new Date()
