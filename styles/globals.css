@@ -1,8 +1,9 @@
 :root {
   --font-georama: Georama;
   --font-acuta: acuta;
-  -color-white: #ffffff;
+  --color-white: #ffffff;
   --color-black: #000000;
+  --color-cream: #eee7d2;
 }
 
 *,
@@ -35,32 +36,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin: 0;
-}
-
-h1 {
-  font-size: 32px;
-}
-
-h2 {
-  font-size: 24px;
-}
-
-h3 {
-  font-size: 20px;
-}
-
-h4 {
-  font-size: 18px;
-}
-
-h5 {
-  font-size: 16px;
-}
-
-h6 {
-  font-size: 12px;
 }
 
 button,

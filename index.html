@@ -2,34 +2,70 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/globals.css">
-  <link rel="stylesheet" href="./styles/main.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./assets/favicon.ico" type="image/ico" />
+  <link rel="stylesheet" href="./styles/globals.css" />
+  <link rel="stylesheet" href="./styles/main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
-  <link rel="preconnect" href="https://use.typekit.net">
-  <link rel="stylesheet" href="https://use.typekit.net/dwc3ucn.css">
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://use.typekit.net" />
+  <link rel="stylesheet" href="https://use.typekit.net/dwc3ucn.css" />
   <title>El Santo Gato</title>
 </head>
 
 <body>
   <header class="root-header">
-    <img src="assets/header-esg.svg" alt="Header El Santo Gato">
+    <img src="assets/header-esg.svg" alt="Header El Santo Gato" />
     <nav class="navigation">
       <ul class="navigation-list">
-        <li><a class="w-full xl:w-max uppercase" data-discover="true" href="/es-mx/products">Tienda</a></li>
-        <li><a class="w-full xl:w-max uppercase" data-discover="true" href="/es-mx/about">Acerca de</a></li>
-        <li><a class="w-full xl:w-max uppercase" data-discover="true" href="/es-mx/collections">Colecciones</a></li>
-        <li><a class="w-full xl:w-max uppercase" data-discover="true" href="/es-mx/search">Buscar</a></li>
+        <li>
+          <a class="w-full xl:w-max uppercase" data-discover="true" href="http://elsantogato.shop/products">Tienda</a>
+        </li>
+        <li>
+          <a class="w-full xl:w-max uppercase" data-discover="true" href="http://elsantogato.shop/about">Acerca de</a>
+        </li>
+        <li>
+          <a class="w-full xl:w-max uppercase" data-discover="true"
+            href="http://elsantogato.shop/collections">Colecciones</a>
+        </li>
+        <li>
+          <a class="w-full xl:w-max uppercase" data-discover="true" href="http://elsantogato.shop/search">Buscar</a>
+        </li>
       </ul>
     </nav>
   </header>
-  <main class="root-content">
+  <main>
+    <div class="content">
+      <h1>We are Almost here!</h1>
+      <h2>Stay tuned for something amazing!!!</h2>
+      <section class="content-countdown">
+        <div class="countdown-item">
+          <span id="days"> 00 </span>
+          <p>days</p>
+        </div>
 
+        <div class="countdown-item">
+          <span id="hours"> 00 </span>
+          <p>hours</p>
+        </div>
+
+        <div class="countdown-item">
+          <span id="minutes"> 00 </span>
+          <p>minutes</p>
+        </div>
+
+        <div class="countdown-item">
+          <span id="seconds"> 00 </span>
+          <p>seconds</p>
+        </div>
+      </section>
+    </div>
   </main>
+
+  <!-- <footer>Hello</footer> -->
   <script src="./js/countdown.js"></script>
 </body>
 
