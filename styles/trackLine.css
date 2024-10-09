@@ -1,0 +1,17 @@
+#menu-backdrop {
+  position: absolute;
+  border-bottom: 2px solid var(--color-black);
+  top: 0;
+  left: var(--left);
+  transition: all;
+  transition-duration: 500ms;
+  transition-delay: 75ms;
+  transition-timing-function: ease-in-out;
+  opacity: 0;
+  z-index: -10;
+  visibility: hidden;
+  transform: translateX(var(--left));
+  transform: translateY(var(--top));
+  width: var(--width);
+  height: var(--height);
+}

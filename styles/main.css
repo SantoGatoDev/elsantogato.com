@@ -1,3 +1,5 @@
+@import url('./trackLine.css');
+
 .root-header {
   font-family: var(--font-georama);
   padding: 4px 20px;
@@ -22,6 +24,7 @@
 
     & .navigation-list {
       li:hover {
+        cursor: pointer;
         opacity: 0.5;
         transition: all 1s;
       }
