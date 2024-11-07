@@ -1,4 +1,4 @@
-<h1 align="center">Countdown</h1>
+<h1 align="center">Website for "elsantogaato.com" domain</h1>
 
 <h3 align="center">
 This repository contains a code for countdown
