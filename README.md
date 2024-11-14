@@ -1,7 +1,7 @@
 <h1 align="center">Website for "elsantogaato.com" domain</h1>
 
 <h3 align="center">
-This repository contains a code for countdown
+This repository contains the code of the website "elsantogato.com" managed in CPanel
 </h3>
 
 ## Stack
